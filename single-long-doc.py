@@ -6,6 +6,8 @@ from langchain.embeddings import OpenAIEmbeddings
 from langchain.chains import RetrievalQA
 from langchain.llms import OpenAI
 
+os.environ["OPENAI_API_KEY"] = "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"
+
 load_dotenv('.env')
 
 # load the document as before
